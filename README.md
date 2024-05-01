@@ -47,6 +47,7 @@ Pour lancer les images avec docker-compose :
 
 
 ## Ma partie :
+Etapes 1, 2, et 3 sur cette branche. L'étape 4 se trouve sur la branche step4
 
 Pour créer les images et lancer les containers :
 
