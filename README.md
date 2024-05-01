@@ -21,29 +21,6 @@ L'application permet de :
 - Pour chaque produit, il est possible d'ajouter autant de photos que nécessaire
 
 
-## Ma partie :
-
-Pour créer les images et lancer les containers :
-
-PHP :
-    - Allez dans le répertoire www
-    - Ouvez un CMD
-    - Tapez la commande "docker build -t image_php -f Dockerfile ."
-    - Tapez la commande docker run -d -p 8080:80 image_php
-
-DB :
-    - Allez dans le répertoire database
-    - Ouvrez un cmd
-    - Tapez la commande "docker build -t image_mysql -f Dockerfile ."
-    - Tapez la commande "docker run -d -p 3306:3306 image_mysql"
-
-Pour lancer les images avec docker-compose :
-    - Allez à la racine du projet
-    - Ouvrez un CMD
-    - Tapez "docker-compose up"
-
-
-
 
 
 ## Ma partie :
