@@ -1,9 +1,9 @@
-ARG MYSQL_VERSION
+ARG POSTGRES_VERSION
 
-FROM mysql:${MYSQL_VERSION}
+FROM postgres:${POSTGRES_VERSION}
 
 COPY gestion_produits.sql /docker-entrypoint-initdb.d/gestion_produits.sql
 
-ENV MYSQL_ROOT_PASSWORD=root
+ENV POSTGRES_PASSWORD=root
 
-EXPOSE 3306
+EXPOSE 5432

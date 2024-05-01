@@ -68,5 +68,5 @@ Pour lancer les images avec docker-compose :
     - Tapez "docker-compose up --build"
 
 Par défaut, se lance avec les versions PHP 8.3e et MySQL 8.3. Ouvrir le fichier .env à la racine et modifier les valeurs pour changer de version si besoin
-
     
+Modification du SGBD MySQL en PostgreSQL. Il manque un petit détail que je n'arrive pas à régler, il trouve pas la base gestion_produits à la connection, qui semple pourtant être créée, et les containers n'ont pas l'air d'avoir de problèmes. Après le réglage de ce problème ca devrait fonctionner.
